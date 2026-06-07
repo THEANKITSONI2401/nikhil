@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Details Form</title>
+</head>
+<body>
+    <head>
+        <style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #74ebd5, #9face6);
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+        margin-top: 20px;
+    }
+
+    form {
+        width: 400px;
+        margin: 30px auto;
+        background: white;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+        margin-top: 20px;
+        color: #555;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 5px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        margin: 15px 0;
+        font-size: 14px;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="tel"],
+    input[type="email"],
+    input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+        transition: 0.3s;
+    }
+
+    input:focus {
+        border-color: #6c63ff;
+        box-shadow: 0 0 5px rgba(108,99,255,0.5);
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background: #6c63ff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #5548c8;
+    }
+
+    input[type="radio"] {
+        margin-left: 10px;
+    }
+</style>
+    </head>
+
+    <h1>Fill Your Details</h1>
+
+    <form>
+        <ul>
+
+            <!-- Personal Information -->
+            <h2>Personal Information</h2>
+
+            <li>
+                Name: <input type="text" placeholder="Enter your name">
+            </li>
+
+            <li>
+                Date of Birth: <input type="date">
+            </li>
+
+            <li>
+                Gender:
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+            </li>
+
+            <!-- Contact Information -->
+            <h2>Contact Information</h2>
+
+            <li>
+                Phone Number: <input type="tel" placeholder="Enter phone number">
+            </li>
+
+            <li>
+                Email: <input type="email" placeholder="Enter email">
+            </li>
+
+            <!-- Account Info -->
+            <h2>Account Details</h2>
+
+            <li>
+                Password: <input type="password" placeholder="Enter password">
+            </li>
+
+            <li>
+                Confirm Password: <input type="password" placeholder="Confirm password">
+            </li>
+
+            <li>
+                <button type="submit">Submit</button>
+            </li>
+
+           
+
+        </ul>
+    </form>
+
+</body>
+</html>
